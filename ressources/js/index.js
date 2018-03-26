@@ -35,3 +35,31 @@ var gcloud = require('gcloud')({ ... });
 var gcs = gcloud.storage();
 var bucket = gcs.bucket('<your-firebase-storage-bucket>');
 ...
+
+// React Native
+var React = require('react');
+
+// React Dom
+  // Browser
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+class MyComponent extends React.Component {
+  render() {
+    return <div>Hello World</div>;
+  }
+}
+
+ReactDOM.render(<MyComponent />, node);
+
+  // Server
+  var React = require('react');
+  var ReactDOMServer = require('react-dom/server');
+
+  class MyComponent extends React.Component {
+    render() {
+      return <div>Hello World</div>;
+    }
+  }
+
+  ReactDOMServer.renderToString(<MyComponent />);
