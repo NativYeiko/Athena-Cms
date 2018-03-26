@@ -1,0 +1,25 @@
+{
+  "name": "athena-cms",
+  "version": "1.0.0",
+  "description": "Mon premier cms ",
+  "main": "index.js",
+  "scripts": {
+    "test": "athena-cms-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativYeiko/Athena-Cms.git"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "Yeiko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NativYeiko/Athena-Cms/issues"
+  },
+  "homepage": "https://github.com/NativYeiko/Athena-Cms#readme",
+  "dependencies": {
+    "firebase": "^4.12.0"
+  }
+}
