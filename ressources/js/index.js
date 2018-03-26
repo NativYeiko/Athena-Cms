@@ -26,3 +26,8 @@ import * as firebase from 'firebase/app';
 // Ces importations chargent des services individuels dans l'espace de noms Firebase.
 import 'firebase/auth';
 import 'firebase/database';
+
+//Usage pour firebase
+var firebase = require('firebase');
+var app = firebase.initializeApp({ ... });
+// ...

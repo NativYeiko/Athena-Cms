@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/NativYeiko/Athena-Cms#readme",
   "dependencies": {
-    "firebase": "^4.12.0"
+    "firebase": "^4.12.0",
+    "gcloud": "^0.37.2",
+    "uuid": "^3.2.1"
   }
 }
