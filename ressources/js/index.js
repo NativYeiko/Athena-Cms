@@ -31,3 +31,7 @@ import 'firebase/database';
 var firebase = require('firebase');
 var app = firebase.initializeApp({ ... });
 // ...
+var gcloud = require('gcloud')({ ... });
+var gcs = gcloud.storage();
+var bucket = gcs.bucket('<your-firebase-storage-bucket>');
+...
